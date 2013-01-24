@@ -133,6 +133,8 @@ function twentyeleven_setup() {
 	);
 
 	add_theme_support( 'custom-header', $custom_header_support );
+	add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 100, 50, true );
 
 	if ( ! function_exists( 'get_custom_header' ) ) {
 		// This is all for compatibility with versions of WordPress prior to 3.4.
