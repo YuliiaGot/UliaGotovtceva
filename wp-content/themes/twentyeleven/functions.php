@@ -1,7 +1,16 @@
 <?php
 /**
  * Twenty Eleven functions and definitions
- *
+ add_action('register_form', 'register_message');
+ function register_message() {
+     $html = '
+         <div style="margin:10px 0;border:1px solid #e5e5e5;padding:10px">
+             <p style="margin:5px 0;">
+             Текст сообщения для пользователей при регистрации.
+             </p>
+         </div>';
+     echo $html;
+ }
  * Sets up the theme and provides some helper functions. Some helper functions
  * are used in the theme as custom template tags. Others are attached to action and
  * filter hooks in WordPress to change core functionality.

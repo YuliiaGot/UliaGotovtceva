@@ -55,7 +55,7 @@ ol {
 }
 
 ul {
-	list-style: square;
+	list-style: none;
 }
 ol {
 	list-style: decimal;

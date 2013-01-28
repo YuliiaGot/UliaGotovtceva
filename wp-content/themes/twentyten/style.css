@@ -227,7 +227,7 @@ p {
 	margin-bottom: 18px;
 }
 ul {
-	list-style: square;
+	list-style: none;
 	margin: 0 0 18px 1.5em;
 }
 ol {
@@ -722,8 +722,24 @@ body.page .edit-link {
 #content .video-player {
 	padding: 0;
 }
-
-
+.entry-content ul {
+    margin: 0;
+}
+.entry-content ul li {
+    padding: 10px 0;
+}
+.entry-content ul li a {
+    text-decoration: none;
+}
+.entry-content ul li a strong {
+    font-size: 14px;
+    padding: 0 15px;
+    color: #000;
+}
+.entry-content ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
 /* =Asides
 -------------------------------------------------------------- */
 
