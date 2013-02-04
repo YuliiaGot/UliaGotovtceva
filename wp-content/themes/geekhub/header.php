@@ -55,7 +55,8 @@
 <body <?php body_class(); ?>>
 <div id="wrapper">
     <div id="header">
-        <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+        <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
+            <img src="wp-content/themes/geekhub/images/home/logo.png" alt=""></a></h1>
         <ul id="nav">
             <?php wp_list_pages('sort_column=menu_order&depth=1&title_li=');?>
         </ul>

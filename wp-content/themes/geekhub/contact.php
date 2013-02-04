@@ -5,11 +5,11 @@ Template Name: Contact
 
 get_header(); ?>
 
-<div class="content">
+<div id="contacts" class="content">
     <h2>Свяжитесь с нами</h2>
     <div class="content-left">
         <h3>Заходьте</h3>
-        <img src="images/map.png" alt="map" />
+        <img src="wp-content/themes/geekhub/images/contacts/map.png" alt="map" />
     </div>
     <dl>
         <dt>Звоніть</dt>

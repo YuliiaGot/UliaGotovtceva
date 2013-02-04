@@ -117,84 +117,84 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-.content {
+#contacts .content {
     overflow: hidden;
 }
-.content h2 {
+#contacts .content h2 {
     font: 47px "Trebuchet MS";
     color: #4B7589;
     border-bottom: 1px solid #A7C3CF;
     padding: 24px 0 18px;
 }
-.content .content-left {
+#contacts .content .content-left {
     float: left;
     width: 427px;
     padding: 0 40px 60px;
 }
-.content .content-left h3 {
+#contacts .content .content-left h3 {
     font: 27px "Trebuchet MS";
     color: #E92777;
     padding: 14px 0 10px;
     text-align: center;
 }
-.content .content-left img {
+#contacts .content .content-left img {
     border: 1px dashed #5B7587;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
     padding: 14px;
 }
-.content dl {
+#contacts .content dl {
     overflow: hidden;
     padding: 44px 0 0;
 }
-.content dl dt {
+#contacts .content dl dt {
     font: 27px "Trebuchet MS";
     color: #E92777;
     padding: 0 0 14px;
     text-align: center;
 }
-.content dl dd {
+#contacts .content dl dd {
     font: 33px "Trebuchet MS";
     color: #4B7589;
     padding: 0 0 22px;
     text-align: center;
 }
-.content dl dd a {
+#contacts .content dl dd a {
     font: 33px "Trebuchet MS";
     color: #4B7589;
     padding: 0 0 22px;
     text-align: center;
     text-decoration: none;
 }
-.content dl dd a:hover {
+#contacts .content dl dd a:hover {
     text-decoration: underline;
 }
-.content dl dd ul {
+#contacts .content dl dd ul {
     overflow: hidden;
     padding: 0 0 0 107px;
 }
-.content dl dd ul li {
+#contacts .content dl dd ul li {
     float: left;
     padding: 0 17px 0 0;
 }
-.content dl dd ul li .big-fb {
+#contacts .content dl dd ul li .big-fb {
     display: block;
     width: 48px;
     height: 49px;
-    background: url("../images/big-link-fb.png") no-repeat;
+    background: url("images/contacts/big-link-fb.png") no-repeat;
 }
-.content dl dd ul li .big-vk {
+#contacts .content dl dd ul li .big-vk {
     display: block;
     width: 48px;
     height: 49px;
-    background: url("../images/big-link-vk.png") no-repeat;
+    background: url("images/contacts/big-link-vk.png") no-repeat;
 }
-.content dl dd ul li .big-tw {
+#contacts .content dl dd ul li .big-tw {
     display: block;
     width: 48px;
     height: 49px;
-    background: url("../images/big-link-twitt.png") no-repeat;
+    background: url("images/contacts/big-link-twitt.png") no-repeat;
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/

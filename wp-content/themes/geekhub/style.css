@@ -12,7 +12,7 @@ Text Domain: geekhub
 */
 
 
-html,body                       { width:100%; height:100%; }
+html,body                       { width:100%; height:100%;}
 body                            { padding:0; margin:0; font:12px Arial, sans-serif; background: url("images/home/header_bg.png") top repeat-x #fff; color:#4B7589; }
 div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
     padding:0;
@@ -59,15 +59,20 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 #header {
     overflow: hidden;
-    border-bottom: 1px solid #8EA8B3;
+    position: relative;
 }
 #header h1 {
     float: left;
-    margin: 15px 0;
+    margin: 14px 2px;
+}
+#header h1 a img {
+    position: absolute;
+    left: 2px;
+    top: 10px;
 }
 #header #social {
     overflow: hidden;
-    padding: 44px 0 0 93px;
+    padding: 44px 0 0 216px;
 }
 #header #social li {
     float: left;
@@ -79,11 +84,17 @@ a:hover                        { text-decoration:none; }
     height: 23px;
     background: url("images/home/links_fb.png") no-repeat;
 }
+#header #social li .fb:hover {
+    background: url("images/home/links_hover.png") no-repeat -1px;
+}
 #header #social li .vk {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_vk.png") no-repeat;
+}
+#header #social li .vk:hover {
+    background: url("images/home/links_hover.png") no-repeat -33px;
 }
 #header #social li .twitt {
     display: block;
@@ -91,17 +102,26 @@ a:hover                        { text-decoration:none; }
     height: 23px;
     background: url("images/home/links_twitter.png") no-repeat;
 }
+#header #social li .twitt:hover {
+    background: url("images/home/links_hover.png") no-repeat -65px;
+}
 #header #social li .yt {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_yt.png") no-repeat;
 }
+#header #social li .yt:hover {
+    background: url("images/home/links_hover.png") no-repeat -97px;
+}
 #header #social li .vimeo {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_vimeo.png") no-repeat;
+}
+#header #social li .vimeo:hover {
+    background: url("images/home/links_hover.png") no-repeat -129px;
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------NAV------------------------------------------*/
@@ -123,7 +143,7 @@ a:hover                        { text-decoration:none; }
     height: 59px;
 }
 #header #nav li a:hover,
-#header #nav li.active a {
+#header #nav .current_page_item a {
     color: #E11D5C;
 }
 /*----------------------------------------------------------------------------------*/
@@ -247,6 +267,190 @@ a:hover                        { text-decoration:none; }
 .content .content-bot .certificate {
     overflow: hidden;
     padding: 31px 32px 0 0;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------TEAM--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#team {
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 0 30px;
+}
+#team h2 {
+    font: 55px "Trebuchet MS", sans-serif normal;
+    padding: 10px 0 8px 0;
+    border-bottom: 1px solid #A7C3CF;
+    margin: 0 0 28px;
+}
+#team ul {
+    overflow: hidden;
+}
+#team ul li{
+    overflow: hidden;
+    margin: 0 36px 15px 58px;
+}
+#team ul li .developer {
+    float: left;
+    padding: 42px 22px 0 0;
+    text-align: right;
+}
+#team  ul li .developer h3 {
+    font: 28px "Myriad Pro", sans-serif normal;
+    color: #E92777;
+    border: none;
+}
+#team  ul li .developer span {
+    font-size: 12px;
+    color: #F2753D;
+}
+#team ul li img {
+    overflow: hidden;
+    float: left;
+}
+#team ul li p {
+    line-height: 19px;
+    text-align: left;
+    overflow: hidden;
+    padding: 40px 22px 0;
+}
+#team ul li.right {
+    overflow: hidden;
+    margin: 0 58px 15px 36px;
+}
+#team ul li.right .developer {
+    float: right;
+    text-align: left;
+    padding: 42px 0 0 22px ;
+}
+#team ul li.right img {
+    overflow: hidden;
+    float: right;
+}
+#team ul li.right p {
+    text-align: right;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTACTS--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#contacts {
+    overflow: hidden;
+}
+#contacts h2 {
+    font: 47px "Trebuchet MS";
+    color: #4B7589;
+    border-bottom: 1px solid #A7C3CF;
+    padding: 24px 0 18px;
+}
+#contacts .content-left {
+    float: left;
+    width: 427px;
+    padding: 0 40px 60px;
+}
+#contacts .content-left h3 {
+    font: 27px "Trebuchet MS";
+    color: #E92777;
+    padding: 14px 0 10px;
+    text-align: center;
+    border: none;
+}
+#contacts .content-left img {
+    border: 1px dashed #5B7587;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 14px;
+}
+#contacts dl {
+    overflow: hidden;
+    padding: 44px 0 0;
+}
+#contacts dl dt {
+    font: 27px "Trebuchet MS";
+    color: #E92777;
+    padding: 0 0 14px;
+    text-align: center;
+}
+#contacts dl dd {
+    font: 33px "Trebuchet MS";
+    color: #4B7589;
+    padding: 0 0 22px;
+    text-align: center;
+}
+#contacts dl dd a {
+    font: 33px "Trebuchet MS";
+    color: #4B7589;
+    padding: 0 0 22px;
+    text-align: center;
+    text-decoration: none;
+}
+#contacts dl dd a:hover {
+    text-decoration: underline;
+}
+#contacts dl dd ul {
+    overflow: hidden;
+    padding: 0 0 0 107px;
+}
+#contacts dl dd ul li {
+    float: left;
+    padding: 0 17px 0 0;
+}
+#contacts dl dd ul li .big-fb {
+    display: block;
+    width: 48px;
+    height: 50px;
+    background: url("images/contacts/big-link-fb.png") no-repeat;
+}
+#contacts dl dd ul li .big-fb:hover {
+    background: url("images/contacts/big-link-hover.png") no-repeat;
+}
+#contacts dl dd ul li .big-vk {
+    display: block;
+    width: 48px;
+    height: 50px;
+    background: url("images/contacts/big-link-vk.png") no-repeat;
+}
+#contacts dl dd ul li .big-vk:hover {
+    background: url("images/contacts/big-link-hover.png") no-repeat -66px 0;
+}
+#contacts dl dd ul li .big-tw {
+    display: block;
+    width: 48px;
+    height: 50px;
+    background: url("images/contacts/big-link-twitt.png") no-repeat;
+}
+#contacts dl dd ul li .big-tw:hover {
+    background: url("images/contacts/big-link-hover.png") no-repeat -132px 0;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------ABOUT----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#about {
+    overflow: hidden;
+}
+#about h2 {
+    font: 47px "Trebuchet MS";
+    color: #4B7589;
+    border-bottom: 1px solid #A7C3CF;
+    padding: 24px 0 18px;
+    border: none;
+}
+#about img {
+    float: left;
+    border: 1px dashed #5B7587;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding: 14px;
+}
+#about .geekhub {
+    overflow: hidden;
+}
+#about .geekhub p {
+    font-size: 15px;
+    color: #4B7589;
+    line-height: 19px;
+    padding: 0 0 20px 26px;
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FOOTER---------------------------------------*/
