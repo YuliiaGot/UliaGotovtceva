@@ -132,7 +132,7 @@ a:hover                        { text-decoration:none; }
 }
 #header #nav li {
     float: left;
-    padding: 6px 0 0 30px;
+    padding: 10px 0 0 30px;
 }
 #header #nav li a {
     font: 15px "Trebuchet MS", sans-serif bold;
@@ -144,6 +144,7 @@ a:hover                        { text-decoration:none; }
 }
 #header #nav li a:hover,
 #header #nav .current_page_item a {
+    background: url("images/team/header_active_arrow.png") center bottom no-repeat;
     color: #E11D5C;
 }
 /*----------------------------------------------------------------------------------*/
