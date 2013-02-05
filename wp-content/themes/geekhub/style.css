@@ -131,7 +131,7 @@ a:hover                        { text-decoration:none; }
     padding: 40px 0 0 0;
 }
 #header #nav li {
-    float: right;
+    float: left;
     padding: 6px 0 0 30px;
 }
 #header #nav li a {
@@ -476,7 +476,7 @@ a:hover                        { text-decoration:none; }
     font-weight: bold;
     text-transform: uppercase;
 }
-#footer ul li.select a,
+#footer ul li.current_page_item a,
 #footer ul li a:hover {
     color: #F85B4E;
     font-weight: bold;

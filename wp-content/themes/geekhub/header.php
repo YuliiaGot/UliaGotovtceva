@@ -58,7 +58,7 @@
         <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
             <img src="wp-content/themes/geekhub/images/home/logo.png" alt=""></a></h1>
         <ul id="nav">
-            <?php wp_list_pages('sort_column=menu_order&depth=1&title_li=');?>
+            <?php wp_list_pages('sort_column=menu_order&depth=0&title_li=');?>
         </ul>
         <ul id="social">
             <li><a class="fb" href="#"></a></li>

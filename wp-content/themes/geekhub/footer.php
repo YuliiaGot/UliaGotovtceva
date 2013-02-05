@@ -14,10 +14,7 @@
 
 <div id="footer">
     <ul>
-        <li class="select"><a href="#">главная</a></li>
-        <li><a href="#">о geekhub</a></li>
-        <li><a href="#">команда</a></li>
-        <li><a href="#">контакты</a></li>
+        <?php wp_list_pages('sort_column=menu_order&depth=0&title_li=');?>
     </ul>
     <span>&copy; Copyright 2011</span>
 </div>
