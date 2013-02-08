@@ -3,8 +3,8 @@
  * The template for displaying 404 pages (Not Found).
  *
  * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+ * @subpackage GeekHub
+ * @since GeekHub
  */
 
 get_header(); ?>
@@ -13,7 +13,7 @@ get_header(); ?>
 		<div id="content" role="main">
 
 			<div id="post-0" class="post error404 not-found">
-				<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
+				<h1 class="entry-title"><?php _e( 'Not Found', 'geekhub' ); ?></h1>
 				<div class="entry-content">
 					<p><?php _e( 'Oops! It seems a mistake. Your searching are meaningless.', 'geekhub' ); ?></p>
 					<?php get_search_form(); ?>

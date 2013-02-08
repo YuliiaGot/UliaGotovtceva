@@ -13,7 +13,7 @@
  * @since geekhub
  */
 
-get_header(); ?>
+get_header('home'); ?>
 
 <div class="header-bot">
     <h2>Реєстрація на другий сезон <br/> відкрита!</h2>
@@ -72,11 +72,11 @@ get_header(); ?>
         <div class="sponsors">
             <h3>НАШИ СПОНСОРЫ</h3>
             <ul>
-                <li><a href="#"><img src="/images/home/sponsors-1.png" alt="спонсор"></a></li>
-                <li><a href="#"><img src="/images/home/sponsors-2.png" alt="спонсор"></a></li>
-                <li><a href="#"><img src="/images/home/sponsors-3.png" alt="спонсор"></a></li>
-                <li class="pre-last"><a href="#"><img src="images/home/sponsors-4.png" alt="спонсор"></a></li>
-                <li><a href="#"><img src="/images/home/sponsors-5.png" alt="спонсор"></a></li>
+                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-1.png" alt="спонсор" /></a></li>
+                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-2.png" alt="спонсор" /></a></li>
+                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-3.png" alt="спонсор" /></a></li>
+                <li class="pre-last"><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-4.png" alt="спонсор" /></a></li>
+                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-5.png" alt="спонсор" /></a></li>
             </ul>
         </div>
         <div class="certificate">

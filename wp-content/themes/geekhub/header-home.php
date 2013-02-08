@@ -53,23 +53,27 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div id="inner">
-        <div id="header">
-            <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
-                <img src="wp-content/themes/geekhub/images/team/logo.jpg" alt=""></a></h1>
-            <ul id="nav">
-                <?php wp_list_pages('sort_column=menu_order&depth=0&title_li=');?>
-            </ul>
-            <ul id="social">
-                <li><a class="fb" href="#"></a></li>
-                <li><a class="vk" href="#"></a></li>
-                <li><a class="twitt" href="#"></a></li>
-                <li><a class="yt" href="#"></a></li>
-                <li><a class="vimeo" href="#"></a></li>
-            </ul>
-        </div>
-        <!--header_end-->
+<div id="inner-home">
+    <div id="header">
+        <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
+            <img src="wp-content/themes/geekhub/images/home/logo.png" alt=""></a></h1>
+        <ul id="nav">
+            <?php wp_list_pages('sort_column=menu_order&depth=0&title_li=');?>
+        </ul>
+        <ul id="social">
+            <li><a class="fb" href="#"></a></li>
+            <li><a class="vk" href="#"></a></li>
+            <li><a class="twitt" href="#"></a></li>
+            <li><a class="yt" href="#"></a></li>
+            <li><a class="vimeo" href="#"></a></li>
+        </ul>
     </div>
-    <!--inner-->
-    <div id="wrapper">
-	<div id="main">
+    <!--header_end-->
+    <div class="header-bot">
+        <h2>Реєстрація на другий сезон <br/> відкрита!</h2>
+        <a href="#">Зареєструватися</a>
+    </div>
+</div>
+<!--inner-home-->
+<div id="wrapper">
+    <div id="main">

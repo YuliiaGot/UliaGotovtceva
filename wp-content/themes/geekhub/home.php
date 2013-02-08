@@ -3,12 +3,7 @@
 Template Name: Home
 */
 
-get_header(); ?>
-
-<div class="header-bot">
-    <h2>Реєстрація на другий сезон <br/> відкрита!</h2>
-    <a href="#">Зареєструватися</a>
-</div>
+get_header('home'); ?>
 
 <div class="content">
     <p><b>GeekHub</b> — це проект, що надає можливість отримати практичні знання та навички в сфері розробки програмного забезпечення. На відміну від традиційної освіти, викладачі GeekHub працюють з новітніми технологіями у провідних софтверних компаніях, тому слухачі GeekHub отримують тільки актуальні знання. Якщо ти зацікавлений — запрошуємо ознайомитись з деталями проекту, та <a href="#">зареєструватися</a> слухачем!</p>
@@ -62,11 +57,11 @@ get_header(); ?>
         <div class="sponsors">
             <h3>НАШИ СПОНСОРЫ</h3>
             <ul>
-                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-1.png" alt="спонсор"></a></li>
-                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-2.png" alt="спонсор"></a></li>
-                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-3.png" alt="спонсор"></a></li>
-                <li class="pre-last"><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-4.png" alt="спонсор"></a></li>
-                <li><a href="#"><img src="wp-content/themes/geekhub/images/home/sponsors-5.png" alt="спонсор"></a></li>
+                <li><a class="sponsor-1" href="#"></a></li>
+                <li><a class="sponsor-2" href="#"></a></li>
+                <li><a class="sponsor-3" href="#"></a></li>
+                <li class="pre-last"><a class="sponsor-4" href="#"></a></li>
+                <li><a class="sponsor-5" href="#"></a></li>
             </ul>
         </div>
         <div class="certificate">

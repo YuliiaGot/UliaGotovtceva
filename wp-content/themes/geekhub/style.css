@@ -13,7 +13,7 @@ Text Domain: geekhub
 
 
 html,body                       { width:100%; height:100%;}
-body                            { padding:0; margin:0; font:12px Arial, sans-serif; background: url("images/home/header_bg.png") top repeat-x #fff; color:#4B7589; }
+body                            { padding:0; margin:0; font:12px Arial, sans-serif; background: #fff; color:#4B7589; }
 div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,input,textarea {
     padding:0;
     margin:0;
@@ -57,18 +57,38 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------HEADER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-#header {
+#inner {
+    background: url("images/team/header_bg.png") top repeat-x;
+}
+#inner-home {
+    background: url("images/home/header_bg.png") top repeat-x;
+}
+#inner #header {
     overflow: hidden;
     position: relative;
+    margin: 0 auto;
+    width: 900px;
+}
+#inner-home #header {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    border-bottom: 1px solid #8EA8B3;
 }
 #header h1 {
     float: left;
     margin: 14px 2px;
 }
-#header h1 a img {
+#inner #header h1 a img {
     position: absolute;
     left: 2px;
-    top: 10px;
+    top: 17px;
+}
+#inner-home #header h1 a img {
+    position: absolute;
+    left: 2px;
+    top: 0;
 }
 #header #social {
     overflow: hidden;
@@ -123,33 +143,6 @@ a:hover                        { text-decoration:none; }
 #header #social li .vimeo:hover {
     background: url("images/home/links_hover.png") no-repeat -129px;
 }
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------NAV------------------------------------------*/
-/*----------------------------------------------------------------------------------*/
-#header #nav {
-    float: right;
-    padding: 40px 0 0 0;
-}
-#header #nav li {
-    float: left;
-    padding: 10px 0 0 30px;
-}
-#header #nav li a {
-    font: 15px "Trebuchet MS", sans-serif bold;
-    color: #396375;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: block;
-    height: 59px;
-}
-#header #nav li a:hover,
-#header #nav .current_page_item a {
-    background: url("images/team/header_active_arrow.png") center bottom no-repeat;
-    color: #E11D5C;
-}
-/*----------------------------------------------------------------------------------*/
-/*-------------------------------------header-bot-----------------------------------*/
-/*----------------------------------------------------------------------------------*/
 .header-bot {
     overflow: hidden;
     text-align: center;
@@ -171,6 +164,37 @@ a:hover                        { text-decoration:none; }
     font: 26px "Trebuchet MS";
     color: #fff;
     background: url("images/home/registration-btn.png") no-repeat;
+}
+.header-bot a:hover {
+    color: #fcc;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#header #nav {
+    float: right;
+    padding: 40px 0 0 0;
+}
+#header #nav li {
+    float: left;
+    padding: 10px 0 0 30px;
+}
+#header #nav li a {
+    font: 15px "Trebuchet MS", sans-serif bold;
+    color: #396375;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    height: 59px;
+}
+#inner #header #nav li a:hover,
+#inner #header #nav .current_page_item a {
+    background: url("images/team/header_active_arrow.png") center bottom no-repeat;
+    color: #E11D5C;
+}
+#inner-home #header #nav li a:hover,
+#inner-home #header #nav .current_page_item a {
+    color: #E11D5C;
 }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
@@ -262,8 +286,50 @@ a:hover                        { text-decoration:none; }
     display: block;
     text-align: center;
 }
-.content .content-bot .sponsors ul li a img:hover {
-
+.content .content-bot .sponsors ul li .sponsor-1 {
+    display: block;
+    width: 69px;
+    height: 54px;
+    background: url("images/home/sponsors.png") no-repeat;
+}
+.content .content-bot .sponsors ul li .sponsor-1:hover {
+    background: url("images/home/sponsor-hover.png") ;
+}
+.content .content-bot .sponsors ul li .sponsor-2 {
+    display: block;
+    width: 72px;
+    height: 39px;
+    background: url("images/home/sponsors.png") no-repeat -69px;
+}
+.content .content-bot .sponsors ul li .sponsor-2:hover {
+    background: url("images/home/sponsor-hover.png") -69px;
+}
+.content .content-bot .sponsors ul li .sponsor-3 {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: url("images/home/sponsors.png") no-repeat -141px;
+}
+.content .content-bot .sponsors ul li .sponsor-3:hover {
+    background: url("images/home/sponsor-hover.png") -142px;
+}
+.content .content-bot .sponsors ul li .sponsor-4 {
+    display: block;
+    width: 59px;
+    height: 44px;
+    background: url("images/home/sponsors.png") no-repeat -193px;
+}
+.content .content-bot .sponsors ul li .sponsor-4:hover {
+    background: url("images/home/sponsor-hover.png") -194px;
+}
+.content .content-bot .sponsors ul li .sponsor-5 {
+    display: block;
+    width: 59px;
+    height: 47px;
+    background: url("images/home/sponsors.png") no-repeat -258px;
+}
+.content .content-bot .sponsors ul li .sponsor-5:hover {
+    background: url("images/home/sponsor-hover.png") -259px;
 }
 .content .content-bot .certificate {
     overflow: hidden;
