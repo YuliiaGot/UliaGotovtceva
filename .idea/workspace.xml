@@ -28,10 +28,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="401" column="19" selection-start="14610" selection-end="14610" vertical-scroll-proportion="7.03281">
+            <state line="401" column="19" selection-start="14610" selection-end="14610" vertical-scroll-proportion="-188.96153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/geekhub/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="22" selection-start="479" selection-end="479" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/geekhub/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36376604">
               <folding />
             </state>
           </provider>
@@ -215,7 +233,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="912" extended-state="0" />
+    <frame x="-8" y="-8" width="1612" height="912" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -304,13 +322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/geekhub/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="479" selection-end="479" vertical-scroll-proportion="0.07275321">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/geekhub/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.21825963">
@@ -341,7 +352,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="401" column="19" selection-start="14610" selection-end="14610" vertical-scroll-proportion="7.03281">
+        <state line="401" column="19" selection-start="14610" selection-end="14610" vertical-scroll-proportion="-188.96153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/geekhub/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="479" selection-end="479" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/geekhub/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.36376604">
           <folding />
         </state>
       </provider>
