@@ -178,6 +178,7 @@ a:hover                        { text-decoration:none; }
 #header #nav li {
     float: left;
     padding: 10px 0 0 30px;
+    font-weight: bold;
 }
 #header #nav li a {
     font: 15px "Trebuchet MS", sans-serif bold;
@@ -186,6 +187,7 @@ a:hover                        { text-decoration:none; }
     text-decoration: none;
     display: block;
     height: 59px;
+    font-weight: bold;
 }
 #inner #header #nav li a:hover,
 #inner #header #nav .current_page_item a {
