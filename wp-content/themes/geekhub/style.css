@@ -90,58 +90,72 @@ a:hover                        { text-decoration:none; }
     left: 2px;
     top: 0;
 }
-#header #social {
+#header .social {
     overflow: hidden;
     padding: 44px 0 0 216px;
 }
-#header #social li {
+#header .social li {
     float: left;
-    padding: 0 10px 0 0;
+    padding: 0 9px 0 0;
+    text-indent: -3333px;
 }
-#header #social li .fb {
+#header .social li a {
+    display: block;
+}
+#header .social li.menu-item-206 {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_fb.png") no-repeat;
+    cursor: pointer;
 }
-#header #social li .fb:hover {
+#header .social li.menu-item-206:hover {
     background: url("images/home/links_hover.png") no-repeat -1px;
+    cursor: pointer;
 }
-#header #social li .vk {
+#header .social li.menu-item-207 {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_vk.png") no-repeat;
+    cursor: pointer;
 }
-#header #social li .vk:hover {
+#header .social li.menu-item-207:hover {
     background: url("images/home/links_hover.png") no-repeat -33px;
+    cursor: pointer;
 }
-#header #social li .twitt {
+#header .social li.menu-item-208 {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_twitter.png") no-repeat;
+    cursor: pointer;
 }
-#header #social li .twitt:hover {
+#header .social li.menu-item-208:hover {
     background: url("images/home/links_hover.png") no-repeat -65px;
+    cursor: pointer;
 }
-#header #social li .yt {
+#header .social li.menu-item-209 {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_yt.png") no-repeat;
+    cursor: pointer;
 }
-#header #social li .yt:hover {
+#header .social li.menu-item-209:hover {
     background: url("images/home/links_hover.png") no-repeat -97px;
+    cursor: pointer;
 }
-#header #social li .vimeo {
+#header .social li.menu-item-210 {
     display: block;
     width: 23px;
     height: 23px;
     background: url("images/home/links_vimeo.png") no-repeat;
+    cursor: pointer;
 }
-#header #social li .vimeo:hover {
+#header .social li.menu-item-210:hover {
     background: url("images/home/links_hover.png") no-repeat -129px;
+    cursor: pointer;
 }
 .header-bot {
     overflow: hidden;

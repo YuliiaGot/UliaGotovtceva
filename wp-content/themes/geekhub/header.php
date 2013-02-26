@@ -60,13 +60,7 @@
             <ul id="nav">
                 <?php wp_list_pages('sort_column=menu_order&depth=0&title_li=');?>
             </ul>
-            <ul id="social">
-                <li><a class="fb" href="#"></a></li>
-                <li><a class="vk" href="#"></a></li>
-                <li><a class="twitt" href="#"></a></li>
-                <li><a class="yt" href="#"></a></li>
-                <li><a class="vimeo" href="#"></a></li>
-            </ul>
+                <?php wp_nav_menu('menu=social&menu_class=social'); ?>
         </div>
         <!--header_end-->
     </div>

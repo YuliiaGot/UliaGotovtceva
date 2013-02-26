@@ -90,7 +90,9 @@ function twentyten_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Navigation', 'twentyten' ),
+		'primary' => __( 'Primary Navigation', 'GeekHub' ),
+        'bottom' => __( 'Bottom Navigation', 'GeekHub' ),
+        'social' => __( 'Social Navigation', 'GeekHub' ),
 	) );
 
 	// This theme allows users to set a custom background.
